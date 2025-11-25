@@ -28,49 +28,54 @@ Prerequisites
 
 
 ## 📥 Installation (Step-by-Step)
-## Install Python 3.10  
-bash  
-Download from: https://www.python.org/downloads/release/python-31011/  
-During installation:  
-✅ Enable "Add Python to PATH"  
-✅ Click "Install Now"  
 
-## Download Project  
-bash  
-Click 'Code' → 'Download ZIP' on GitHub  
-Extract to desired location (e.g., Desktop/facetoo/)  
+### 1️⃣ Install Python 3.10
+```bash
+# Download from: https://www.python.org/downloads/release/python-31011/
+# During installation:
+# Enable "Add Python to PATH"
+# Click "Install Now"
+```
 
-## Open Project Folder  
-bash  
-Navigate to project folder  
-Click address bar, type 'cmd', press Enter  
+### 2️⃣ Download Project
+```bash
+# Click 'Code' → 'Download ZIP' on GitHub
+# Extract to desired location (e.g., Desktop/facetoo/)
+```
 
-## Install Dependencies  
-bash  
-pip install -r requirements.txt  
+### 3️⃣ Open Project Folder
+```bash
+# Navigate to project folder
+# Click address bar, type 'cmd', press Enter
+```
 
-## Verify Required Files  
-Ensure these files are present:  
-text:  
-model/expression_model.h5  
-model/expressions_labels.txt  
-haarcascade_frontalface_default.xml  
+### 4️⃣ Install Dependencies
+```bash
+# Install all required packages
+pip install -r requirements.txt
+```
 
-## If Haar Cascade missing:  
-bash  
-Download from:  
-https://github.com/opencv/opencv/blob/master/data/haarcascades/haarcascade_frontalface_default.xml  
-Place in project root directory  
+### 5️⃣ Verify Required Files
+-- Ensure these files are present:  
+-- model/expression_model.h5  
+-- model/expressions_labels.txt  
+-- haarcascade_frontalface_default.xml  
 
-## Run Application  
-bash  
-cd app  
-python realtime.py  
 
-or  
+**If Haar Cascade missing:**
+```bash
+# Download from:
+# https://github.com/opencv/opencv/blob/master/data/haarcascades/haarcascade_frontalface_default.xml
+# Place in project root directory
+```
 
-py -3.10 realtime.py  
-
+### 6️⃣ Run Application 🚀
+```bash
+cd app
+python realtime.py
+# or
+py -3.10 realtime.py
+```
 
 ## 🎮 Usage  
 -- Launch: Run realtime.py  
